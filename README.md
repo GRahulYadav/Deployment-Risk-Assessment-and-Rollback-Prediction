@@ -49,13 +49,21 @@ Modern software deployments often involve multiple services and complex dependen
 ## 📂 Folder Structure
 
 ├── main.py # Entry point to run the full pipeline
+
 ├── anomaly_detector.py # Anomaly detection module
+
 ├── rollback_engine.py # Risk prediction and rollback logic
+
 ├── deployment_features.csv # Pipeline-level deployment features
+
 ├── monitor_logs/
+
 │ ├── metrics_pipe-risky456.csv # Simulated post-deployment logs
+
 │ └── metrics_pipe-xyz123.csv
+
 ├── models/
+
 │ └── deployment_risk_model.pkl # Trained RandomForest model
 
 # OUTPUTS
